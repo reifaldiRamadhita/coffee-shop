@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Espresso",
+    "substance": ["Solo", "Doppio"],
+    "price": { "hot": 20000 }
+  },
+  {
+    "id": "2",
+    "name": "Doppio",
+    "substance": ["Foam", "Espresso"],
+    "price": { "hot": 27000 }
+  },
+  {
+    "id": "3",
+    "name": "Americano",
+    "substance": ["Water", "Espresso"],
+    "price": { "hot": 25000 }
+  },
+  {
+    "id": "4",
+    "name": "Macchiato",
+    "substance": ["Milk Foam", "Espresso"],
+    "price": { "hot": 23000, "ice": 25000 }
+  },
+  {
+    "id": "5",
+    "name": "Latte with Cream",
+    "substance": ["Ice Cream", "Milk Foam", "Steamed Milk", "Espresso"],
+    "price": { "hot": 25000, "ice": 27000 }
+  },
+  {
+    "id": "6",
+    "name": "Cappuccino",
+    "substance": ["Foam", "Milk", "Espresso"],
+    "price": { "hot": 25000, "ice": 26000 }
+  },
+  {
+    "id": "7",
+    "name": "Latte",
+    "substance": ["Milk Foam", "Steamed Milk", "Espresso"],
+    "price": { "hot": 25000, "ice": 26000 }
+  },
+  {
+    "id": "8",
+    "name": "Frappe",
+    "substance": ["Steamed Milk", "Ice Cream", "Espresso"],
+    "price": { "hot": 30000, "ice": 32000 }
+  },
+  {
+    "id": "9",
+    "name": "Irish Coffee",
+    "substance": ["Whipped Cream", "Whiskey", "Espresso"],
+    "price": { "hot": 35000, "ice": 37000 }
+  }
+]
