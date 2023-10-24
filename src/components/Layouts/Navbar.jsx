@@ -37,7 +37,7 @@ export default function Navbar() {
 
   return (
     <div className="fixed bottom-0 right-1/2 h-20 w-full translate-x-1/2 rounded-t-full pb-3 backdrop-blur-md md:top-0 md:rounded-t-none md:pb-0 lg:right-0 lg:translate-x-0">
-      <p className="absolute left-0 top-1/2 hidden -translate-y-1/2 font-poiret text-3xl font-bold text-darkSlate dark:text-white md:block md:ps-5 lg:ps-14">
+      <p className="absolute left-0 top-1/2 hidden -translate-y-1/2 font-poiret text-3xl font-bold text-darkSlate dark:text-white md:left-10 md:block lg:left-72">
         MyCoffee
       </p>
       <ul className="absolute -top-5 left-1/2 right-10 flex -translate-x-1/2 items-center justify-evenly md:left-0 md:top-0 md:h-full md:w-full md:translate-x-0 md:justify-end md:pe-8 lg:pe-36">

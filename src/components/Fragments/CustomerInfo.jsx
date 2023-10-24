@@ -1,8 +1,11 @@
-import imgCustomer from "../assets/img/user-1.png";
+import imgCustomer from "../../assets/img/user-1.png";
 import { Link } from "react-router-dom";
 import { PiShoppingCart } from "react-icons/pi";
+import { useSelector } from "react-redux";
 
-export default function CustomerInfo({ onCheckoutCoffeeAmount }) {
+export default function CustomerInfo() {
+  const cart = useSelector((state) => state.cart.data);
+
   return (
     <div className="flex items-center justify-between bg-slate-100 px-5 py-8 transition duration-300 dark:bg-darkSlate md:px-8 lg:mt-0 lg:pb-4">
       <div className="flex items-center lg:scale-90">
@@ -27,7 +30,7 @@ export default function CustomerInfo({ onCheckoutCoffeeAmount }) {
             <PiShoppingCart />
           </div>
           <p className="text-center text-2xl font-bold text-white dark:text-darkSlate md:text-3xl">
-            {onCheckoutCoffeeAmount}
+            {cart.length}
           </p>
           <p className="text-center text-xs font-semibold text-slate-300 dark:text-darkSlate md:text-lg">
             Product
